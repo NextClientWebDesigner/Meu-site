@@ -1,0 +1,747 @@
+<!DOCTYPE html>
+<html lang="pt-BR" data-index="true">
+<head>
+    <meta charset="UTF-8">
+    <meta name="index" content="true">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Promos de Casa - As melhores ofertas para sua casa com descontos imperdíveis todos os dias. Qualidade e economia em um só lugar.">
+    <meta name="keywords" content="promoções, casa, desconto, ofertas, produtos, shopee, amazon, decoração">
+    <meta name="author" content="Promos de Casa">
+    <meta property="og:title" content="Promos de Casa - Links Oficiais">
+    <meta property="og:description" content="🏠 As melhores ofertas para sua casa 💰 Descontos imperdíveis todos os dias ✨ Qualidade e economia em um só lugar">
+    <meta property="og:type" content="website">
+    <meta name="twitter:card" content="summary_large_image">
+    <title>INDEX | Promos de Casa - Links Oficiais</title>
+    <link rel="icon" type="image/x-icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🏠</text></svg>">
+    <style>
+        :root {
+            --index-primary-color: #1a1a1a;
+            --index-secondary-color: #000000;
+            --index-accent-color: #ffffff;
+            --index-text-color: #ffffff;
+            --index-subtext-color: #cccccc;
+            --index-border-color: rgba(255, 255, 255, 0.2);
+            --index-hover-color: rgba(255, 255, 255, 0.1);
+            --index-animation-speed: 0.3s;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            background: linear-gradient(135deg, var(--index-secondary-color) 0%, var(--index-primary-color) 50%, var(--index-secondary-color) 100%);
+            background-size: 400% 400%;
+            animation: gradientShift 8s ease infinite;
+            color: var(--index-text-color);
+            min-height: 100vh;
+            overflow-x: hidden;
+        }
+
+        @keyframes gradientShift {
+            0% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+            100% { background-position: 0% 50%; }
+        }
+
+        .container {
+            max-width: 400px;
+            margin: 0 auto;
+            padding: 20px 15px;
+            position: relative;
+        }
+
+        .profile-section {
+            text-align: center;
+            margin-bottom: 30px;
+            animation: fadeInDown 1s ease-out;
+        }
+
+        @keyframes fadeInDown {
+            from {
+                opacity: 0;
+                transform: translateY(-30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .profile-image {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            background: #f8d7da;
+            margin: 0 auto 15px;
+            position: relative;
+            overflow: hidden;
+            border: 3px solid var(--index-accent-color);
+            box-shadow: 0 8px 25px rgba(255, 255, 255, 0.2);
+            animation: profilePulse 3s ease-in-out infinite;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+        }
+
+        .profile-image .logo-text {
+            font-family: 'Georgia', 'Times New Roman', serif;
+            color: #213339;
+            font-weight: bold;
+            line-height: 0.9;
+        }
+
+        .profile-image .logo-text .produtos {
+            font-size: 13px;
+            display: block;
+            margin-bottom: -2px;
+        }
+
+        .profile-image .logo-text .decasa {
+            font-size: 13px;
+            display: block;
+        }
+
+        @keyframes profilePulse {
+            0%, 100% { transform: scale(1); box-shadow: 0 8px 25px rgba(255, 255, 255, 0.2); }
+            50% { transform: scale(1.05); box-shadow: 0 12px 35px rgba(255, 255, 255, 0.3); }
+        }
+
+        .profile-name {
+            font-size: 24px;
+            font-weight: bold;
+            margin-bottom: 8px;
+            background: linear-gradient(45deg, var(--index-accent-color), var(--index-subtext-color));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            animation: textGlow 2s ease-in-out infinite alternate;
+        }
+
+        @keyframes textGlow {
+            from { filter: drop-shadow(0 0 5px rgba(255, 255, 255, 0.5)); }
+            to { filter: drop-shadow(0 0 15px rgba(255, 255, 255, 0.8)); }
+        }
+
+        .profile-bio {
+            font-size: 14px;
+            color: var(--index-subtext-color);
+            line-height: 1.4;
+            animation: fadeIn 1.5s ease-out 0.5s both;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+
+        .links-container {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+
+        .link-item {
+            background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.05));
+            border: 2px solid var(--index-border-color);
+            border-radius: 12px;
+            padding: 16px;
+            text-decoration: none;
+            color: var(--index-text-color);
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            transition: all var(--index-animation-speed) ease;
+            position: relative;
+            overflow: hidden;
+            backdrop-filter: blur(10px);
+            animation: slideInUp 0.8s ease-out;
+            animation-fill-mode: both;
+            cursor: pointer;
+        }
+
+        .link-item:nth-child(1) { animation-delay: 0.2s; }
+        .link-item:nth-child(2) { animation-delay: 0.4s; }
+        .link-item:nth-child(3) { animation-delay: 0.6s; }
+        .link-item:nth-child(4) { animation-delay: 0.8s; }
+        .link-item:nth-child(5) { animation-delay: 1s; }
+        .link-item:nth-child(6) { animation-delay: 1.2s; }
+
+        @keyframes slideInUp {
+            from {
+                opacity: 0;
+                transform: translateY(50px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .link-item::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: -100%;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.1), transparent);
+            transition: left 0.8s;
+        }
+
+        .link-item:hover::before {
+            left: 100%;
+        }
+
+        .link-item:hover {
+            background: linear-gradient(135deg, var(--index-hover-color), rgba(255, 255, 255, 0.08));
+            border-color: rgba(255, 255, 255, 0.3);
+            transform: translateY(-2px) scale(1.01);
+            box-shadow: 0 8px 20px rgba(255, 255, 255, 0.08);
+        }
+
+        .link-content {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+
+        .link-icon {
+            width: 42px;
+            height: 42px;
+            background: linear-gradient(45deg, var(--index-accent-color), #e0e0e0);
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 20px;
+            animation: iconFloat 3s ease-in-out infinite;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .link-icon.amazon-icon {
+            background: var(--index-accent-color);
+            padding: 6px;
+        }
+
+        .link-icon.whatsapp-icon {
+            background: #25D366;
+            padding: 8px;
+            border-radius: 12px;
+        }
+
+        .link-icon.instagram-icon {
+            background: linear-gradient(45deg, #405DE6, #5851DB, #833AB4, #C13584, #E1306C, #FD1D1D, #F56040, #F77737, #FCAF45, #FFDC80);
+            padding: 8px;
+            border-radius: 12px;
+        }
+
+        .link-icon.shopee-icon {
+            background: #FF6B00;
+            padding: 8px;
+            border-radius: 12px;
+        }
+
+        .link-icon.vip-icon {
+            background: linear-gradient(45deg, #FFD700, #FFA500);
+            padding: 8px;
+            border-radius: 12px;
+        }
+
+        .link-icon.amazon-icon::before {
+            content: '';
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 30px;
+            height: 18px;
+            background-image: url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzAiIGhlaWdodD0iMTgiIHZpZXdCb3g9IjAgMCAzMCAxOCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICA8dGV4dCB4PSIxIiB5PSIxMSIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjgiIGZvbnQtd2VpZ2h0PSJib2xkIiBmaWxsPSIjMjMyRjNFIj5hbWF6b248L3RleHQ+CiAgPHBhdGggZD0iTTMuNSAxNCBRIDE1IDE2LjUgMjYuNSAxNCIgc3Ryb2tlPSIjRkY5QTAwIiBzdHJva2Utd2lkdGg9IjEiIGZpbGw9Im5vbmUiLz4KICA8cG9seWdvbiBwb2ludHM9IjI0LDEyLjUgOC41LDE0IDI0LDE1LjUiIGZpbGw9IiNGRjlBMDAiLz4KPC9zdmc+Cg==');
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+
+        .link-icon.whatsapp-icon::before {
+            content: '📞';
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-size: 24px;
+            color: white;
+            filter: brightness(0) invert(1);
+        }
+
+        .link-icon.instagram-icon::before {
+            content: '';
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 26px;
+            height: 26px;
+            background-image: url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjYiIGhlaWdodD0iMjYiIHZpZXdCb3g9IjAgMCAyNiAyNiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICA8cmVjdCB4PSIzIiB5PSIzIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiIHJ4PSI1IiBzdHJva2U9IndoaXRlIiBzdHJva2Utd2lkdGg9IjIiIGZpbGw9Im5vbmUiLz4KICA8Y2lyY2xlIGN4PSIxMyIgY3k9IjEzIiByPSI1IiBzdHJva2U9IndoaXRlIiBzdHJva2Utd2lkdGg9IjIiIGZpbGw9Im5vbmUiLz4KICA8Y2lyY2xlIGN4PSIxOSIgY3k9IjciIHI9IjEuNSIgZmlsbD0id2hpdGUiLz4KPC9zdmc+Cg==');
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+
+        .link-icon.shopee-icon::before {
+            content: '';
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 42px;
+            height: 42px;
+            background-image: url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNDIiIGhlaWdodD0iNDIiIHZpZXdCb3g9IjAgMCA0MiA0MiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICA8cmVjdCB3aWR0aD0iNDIiIGhlaWdodD0iNDIiIGZpbGw9IiNGRjZCMDAiLz4KICA8dGV4dCB4PSIyMSIgeT0iMjkiIGZvbnQtZmFtaWx5PSJBcmlhbCwgc2Fucy1zZXJpZiIgZm9udC1zaXplPSIyNCIgZm9udC13ZWlnaHQ9ImJvbGQiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZpbGw9IndoaXRlIj5TPC90ZXh0Pgo8L3N2Zz4K');
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+
+        @keyframes iconFloat {
+            0%, 100% { transform: translateY(0px); }
+            50% { transform: translateY(-3px); }
+        }
+
+        .link-text {
+            flex: 1;
+        }
+
+        .link-title {
+            font-size: 16px;
+            font-weight: bold;
+            margin-bottom: 3px;
+            color: var(--index-text-color);
+        }
+
+        .link-subtitle {
+            font-size: 12px;
+            color: var(--index-subtext-color);
+        }
+
+        .link-arrow {
+            font-size: 18px;
+            color: var(--index-subtext-color);
+            transition: transform var(--index-animation-speed) ease;
+        }
+
+        .link-item:hover .link-arrow {
+            transform: translateX(3px);
+        }
+
+        .floating-elements {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            pointer-events: none;
+            z-index: -1;
+        }
+
+        .floating-element {
+            position: absolute;
+            color: rgba(255, 255, 255, 0.08);
+            font-size: 16px;
+            animation: float 15s linear infinite;
+        }
+
+        @keyframes float {
+            from {
+                transform: translateY(100vh) rotate(0deg);
+            }
+            to {
+                transform: translateY(-100px) rotate(360deg);
+            }
+        }
+
+        .footer {
+            text-align: center;
+            margin-top: 30px;
+            padding: 20px 15px;
+            color: #666;
+            font-size: 12px;
+            animation: fadeIn 2s ease-out 1.5s both;
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        .footer-links {
+            margin-top: 15px;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+
+        .footer-link {
+            color: #888;
+            text-decoration: none;
+            font-size: 11px;
+            transition: color var(--index-animation-speed) ease;
+        }
+
+        .footer-link:hover {
+            color: var(--index-text-color);
+        }
+
+        /* Otimizações específicas para mobile */
+        @media (max-width: 480px) {
+            .container {
+                padding: 15px 12px;
+                max-width: 100%;
+            }
+            
+            .profile-name {
+                font-size: 22px;
+            }
+
+            .profile-bio {
+                font-size: 13px;
+            }
+            
+            .link-item {
+                padding: 14px;
+                gap: 10px;
+            }
+
+            .link-content {
+                gap: 10px;
+            }
+
+            .link-icon {
+                width: 38px;
+                height: 38px;
+                font-size: 18px;
+            }
+
+            .link-title {
+                font-size: 15px;
+            }
+
+            .link-subtitle {
+                font-size: 11px;
+            }
+
+            .footer-links {
+                gap: 15px;
+            }
+        }
+
+        /* Para telas muito pequenas */
+        @media (max-width: 360px) {
+            .profile-image {
+                width: 85px;
+                height: 85px;
+            }
+
+            .profile-image .logo-text .produtos,
+            .profile-image .logo-text .decasa {
+                font-size: 11px;
+            }
+
+            .profile-name {
+                font-size: 20px;
+            }
+
+            .link-item {
+                padding: 12px;
+            }
+
+            .link-icon {
+                width: 35px;
+                height: 35px;
+            }
+
+            .footer-links {
+                flex-direction: column;
+                gap: 10px;
+            }
+        }
+
+        /* Performance otimizations */
+        .link-item {
+            will-change: transform;
+        }
+
+        .floating-element {
+            will-change: transform;
+        }
+
+        /* Accessibility improvements */
+        @media (prefers-reduced-motion: reduce) {
+            * {
+                animation-duration: 0.01ms !important;
+                animation-iteration-count: 1 !important;
+                transition-duration: 0.01ms !important;
+            }
+        }
+
+        /* Focus styles for accessibility */
+        .link-item:focus {
+            outline: 2px solid var(--index-accent-color);
+            outline-offset: 2px;
+        }
+
+        /* High contrast mode support */
+        @media (prefers-contrast: high) {
+            .link-item {
+                border-color: var(--index-accent-color);
+                background: rgba(255, 255, 255, 0.2);
+            }
+        }
+
+        /* INDEX specific styles */
+        [data-index="true"] {
+            --index-version: "1.0";
+        }
+
+        .index-version {
+            position: fixed;
+            bottom: 5px;
+            right: 5px;
+            font-size: 10px;
+            color: rgba(255, 255, 255, 0.3);
+        }
+    </style>
+</head>
+<body>
+    <div class="floating-elements">
+        <div class="floating-element" style="left: 10%; animation-delay: 0s;">🏠</div>
+        <div class="floating-element" style="left: 20%; animation-delay: 2s;">💰</div>
+        <div class="floating-element" style="left: 30%; animation-delay: 4s;">🛍️</div>
+        <div class="floating-element" style="left: 40%; animation-delay: 6s;">✨</div>
+        <div class="floating-element" style="left: 50%; animation-delay: 8s;">🏷️</div>
+        <div class="floating-element" style="left: 60%; animation-delay: 10s;">💎</div>
+        <div class="floating-element" style="left: 70%; animation-delay: 12s;">🎯</div>
+        <div class="floating-element" style="left: 80%; animation-delay: 14s;">⭐</div>
+    </div>
+
+    <main class="container">
+        <header class="profile-section">
+            <div class="profile-image" role="img" aria-label="Logo Produtos de Casa">
+                <div class="logo-text">
+                    <span class="produtos">produtos.</span>
+                    <span class="decasa">decasa</span>
+                </div>
+            </div>
+            <h1 class="profile-name">Promos de Casa</h1>
+            <p class="profile-bio">
+                🏠 As melhores ofertas para sua casa<br>
+                💰 Descontos imperdíveis todos os dias<br>
+                ✨ Qualidade e economia em um só lugar
+            </p>
+        </header>
+
+        <nav class="links-container" role="navigation" aria-label="Links principais">
+            <a href="https://collshp.com/produtos.decasaa" class="link-item" rel="noopener" target="_blank" aria-label="Acesse nosso catálogo na Shopee">
+                <div class="link-content">
+                    <div class="link-icon shopee-icon" aria-hidden="true"></div>
+                    <div class="link-text">
+                        <div class="link-title">Catálogo de Produtos Shopee</div>
+                        <div class="link-subtitle">Confira todos os nossos produtos em oferta</div>
+                    </div>
+                </div>
+                <div class="link-arrow" aria-hidden="true">→</div>
+            </a>
+
+            <a href="http://bit.ly/3TUU3WE" class="link-item" rel="noopener" target="_blank" aria-label="Acesse nosso catálogo na Amazon">
+                <div class="link-content">
+                    <div class="link-icon amazon-icon" aria-hidden="true"></div>
+                    <div class="link-text">
+                        <div class="link-title">Catálogo de Produtos Amazon</div>
+                        <div class="link-subtitle">Confira todos os nossos produtos em oferta</div>
+                    </div>
+                </div>
+                <div class="link-arrow" aria-hidden="true">→</div>
+            </a>
+
+            <a href="https://wa.me/5548991780776?text=Ol%C3%A1%2C%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20produtos%20do%20seu%20perfil%21" class="link-item" rel="noopener" target="_blank" aria-label="Entre em contato conosco pelo WhatsApp">
+                <div class="link-content">
+                    <div class="link-icon whatsapp-icon" aria-hidden="true"></div>
+                    <div class="link-text">
+                        <div class="link-title">WhatsApp</div>
+                        <div class="link-subtitle">Entre em contato conosco diretamente</div>
+                    </div>
+                </div>
+                <div class="link-arrow" aria-hidden="true">→</div>
+            </a>
+
+            <a href="https://www.instagram.com/loja_produtosdecasa/" class="link-item" rel="noopener" target="_blank" aria-label="Siga-nos no Instagram">
+                <div class="link-content">
+                    <div class="link-icon instagram-icon" aria-hidden="true"></div>
+                    <div class="link-text">
+                        <div class="link-title">Instagram</div>
+                        <div class="link-subtitle">Siga-nos para não perder as promoções</div>
+                    </div>
+                </div>
+                <div class="link-arrow" aria-hidden="true">→</div>
+            </a>
+
+            <a href="https://claude.ai/public/artifacts/8b6bbba6-b0f9-47d7-9e6c-cc934b282e3a" class="link-item" rel="noopener" target="_blank" aria-label="Acesse o Clube VIP para descontos exclusivos">
+                <div class="link-content">
+                    <div class="link-icon vip-icon" aria-hidden="true">💎</div>
+                    <div class="link-text">
+                        <div class="link-title">Clube VIP</div>
+                        <div class="link-subtitle">Descontos exclusivos para membros</div>
+                    </div>
+                </div>
+                <div class="link-arrow" aria-hidden="true">→</div>
+            </a>
+        </nav>
+    </main>
+
+    <footer class="footer">
+        <p>✨ Promos de Casa - Sua casa mais bonita por menos ✨</p>
+        <div class="footer-links">
+            <a href="#" class="footer-link">Política de Privacidade</a>
+            <a href="#" class="footer-link">Termos de Uso</a>
+            <a href="#" class="footer-link">Contato</a>
+            <a href="#" class="footer-link">Sobre Nós</a>
+        </div>
+        <p style="margin-top: 10px; font-size: 10px; color: #555;">
+            © 2025 Promos de Casa. Todos os direitos reservados.
+        </p>
+    </footer>
+
+    <div class="index-version">INDEX v1.0</div>
+
+    <script>
+        // INDEX JavaScript Module
+        const Index = (function() {
+            'use strict';
+            
+            // Configurações do INDEX
+            const config = {
+                version: "1.0",
+                type: "linktree",
+                optimized: true,
+                analytics: false
+            };
+            
+            // Inicializa o INDEX
+            function init() {
+                console.log(`INDEX v${config.version} initialized`);
+                setupLinks();
+                createFloatingParticles();
+                setupPerformanceMonitoring();
+                
+                if(config.analytics) {
+                    setupAnalytics();
+                }
+            }
+            
+            // Configura os links do INDEX
+            function setupLinks() {
+                document.querySelectorAll('.link-item').forEach((link, index) => {
+                    link.addEventListener('mouseenter', () => {
+                        link.style.animationPlayState = 'running';
+                    });
+                    
+                    link.addEventListener('mouseleave', () => {
+                        link.style.animationPlayState = 'running';
+                    });
+
+                    link.addEventListener('click', (e) => {
+                        link.style.transform = 'scale(0.98)';
+                        
+                        requestAnimationFrame(() => {
+                            link.style.transform = '';
+                        });
+                        
+                        if(config.analytics) {
+                            trackClick(link.querySelector('.link-title').textContent);
+                        }
+                    });
+
+                    // Otimização para dispositivos móveis
+                    link.addEventListener('touchstart', (e) => {
+                        link.style.transform = 'scale(0.98)';
+                    });
+
+                    link.addEventListener('touchend', (e) => {
+                        requestAnimationFrame(() => {
+                            link.style.transform = '';
+                        });
+                    });
+                });
+            }
+            
+            // Cria partículas flutuantes
+            function createFloatingParticles() {
+                function createParticle() {
+                    const particle = document.createElement('div');
+                    particle.className = 'floating-element';
+                    particle.style.left = Math.random() * 100 + '%';
+                    particle.style.animationDuration = (Math.random() * 8 + 12) + 's';
+                    particle.style.fontSize = (Math.random() * 6 + 12) + 'px';
+                    
+                    const emojis = ['⭐', '✨', '💫', '🌟', '💎', '🏠', '💰', '🛍️'];
+                    particle.textContent = emojis[Math.floor(Math.random() * emojis.length)];
+                    
+                    document.querySelector('.floating-elements').appendChild(particle);
+                    
+                    setTimeout(() => {
+                        particle.remove();
+                    }, 15000);
+                }
+
+                // Cria uma nova partícula a cada 4 segundos
+                setInterval(createParticle, 4000);
+            }
+            
+            // Configura monitoramento de performance
+            function setupPerformanceMonitoring() {
+                window.addEventListener('load', () => {
+                    if ('performance' in window) {
+                        setTimeout(() => {
+                            const perfData = performance.getEntriesByType('navigation')[0];
+                            console.log(`INDEX Load Time: ${perfData.loadEventEnd - perfData.loadEventStart}ms`);
+                        }, 0);
+                    }
+                });
+            }
+            
+            // Configura analytics (opcional)
+            function setupAnalytics() {
+                console.log("INDEX Analytics enabled");
+            }
+            
+            // Track de cliques (para analytics)
+            function trackClick(linkName) {
+                console.log(`INDEX Link clicked: ${linkName}`);
+            }
+            
+            // Retorna a API pública do INDEX
+            return {
+                init: init,
+                config: config
+            };
+        })();
+
+        // Inicializa o INDEX quando o DOM estiver pronto
+        document.addEventListener('DOMContentLoaded', Index.init);
+
+        // Service Worker para cache (opcional)
+        if ('serviceWorker' in navigator) {
+            window.addEventListener('load', () => {
+                navigator.serviceWorker.register('/sw.js')
+                    .then((registration) => {
+                        console.log('INDEX Service Worker registered:', registration);
+                    })
+                    .catch((error) => {
+                        console.log('INDEX Service Worker registration failed:', error);
+                    });
+            });
+        }
+    </script>
+</body>
+</html>
